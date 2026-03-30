@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="_BugFixer" />
+    <title>Tabelas</title>
+    <style>
+      td,
+      th {
+        border: 1px solid #ccc;
+        background-color: #ccc;
+      }
+
+      h3,
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Revisão de Conceitos HTML</h1>
+    </header>
+
+    <main>
+      <!-- Tabela vertical -->
+      <section class="container">
+        <h3>Tabela Vertical</h3>
+        <table>
+          <tr>
+            <th>Nome</th>
+            <td>Maria</td>
+            <td>José</td>
+            <td>José</td>
+          </tr>
+          <tr>
+            <th>Sobrenome</th>
+            <td>Cristóvão</td>
+            <td>Azevedo</td>
+            <td>Costa</td>
+          </tr>
+        </table>
+
+        <!-- Tabela horizontal -->
+        <h3>Tabela Horizontal</h3>
+        <table>
+          <caption>
+            Estudantes
+          </caption>
+          <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Idade</th>
+          </tr>
+          <tr>
+            <td>Maria</td>
+            <td>Azevedo</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>José</td>
+            <td>Silva</td>
+            <td>26</td>
+          </tr>
+        </table>
+
+        <!-- Tabela vertical: cosplan-->
+        <h3>Tabela Horizontal</h3>
+        <table>
+          <caption>
+            Estudantes
+          </caption>
+          <tr>
+            <th colspan="2">Nome Completo</th>
+            <th>Idade</th>
+          </tr>
+          <tr>
+            <td>Maria</td>
+            <td>Azevedo</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>José</td>
+            <td>Silva</td>
+            <td>26</td>
+          </tr>
+        </table>
+
+        <!-- Tabela vertical: rowspan-->
+        <h3>Tabela Horizontal</h3>
+        <table>
+          <caption>
+            Estudantes
+          </caption>
+          <tr>
+            <th>Nome</th>
+            <td>Maria</td>
+          </tr>
+          <tr>
+            <th>Sobrenome</th>
+            <td>Azevedo</td>
+          </tr>
+          <tr>
+            <th rowspan="2">Contato</th>
+            <td>925 100 222</td>
+          </tr>
+          <tr>
+            <td>925 100 222</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

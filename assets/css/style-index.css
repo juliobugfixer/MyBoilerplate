@@ -1,0 +1,60 @@
+/* ******************** Estilizição do documento ******************** */
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* ******************** Estilização All ******************** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ******************** Variáveis ******************** */
+:root{
+    --off-white: #faf9f6;
+    --alice-blue: #f0f8ff;
+    --pearl: #fbfcf8;
+    --egg-shell: #fff9e3;
+    --coconut: #fff1e6;
+    --parchment: #fbf5df; 
+    --first-color: #f3b105;
+    --first-color-2: #ffefbc;
+    --sec-color: #ebe6e0;
+    --sec-color-2: #4c7766;
+    --third-color: #1a4862;
+    --third-color-2: #d7df43;
+    --fourth-color:  #ed8f45;
+    --fourth-color-2:  #fbf0f4;
+    --fifth-color: #bbdee4;
+    --fifth-color:  #e3a1ad;
+    --sixth-color: #91736b;
+    --sixth-color-2: #fbf0f4;
+    --palette-1: #80ed99 #45dfb1 #0ad1c8  #14919b #0b6477 #213a57;
+    --palette-2: #c3c7f3 #f4e7fb #f3dcdc #f5bcba #e3aadd #c8a8e9;
+    --palette-3:  #ef476f  #f78c6b  #ffd166 #06d6a0 #118ab2 #073b4c;
+    --palette: #87986a #97a97c  #b5c99a #cfe1b9 #718355;
+    --aqua-skyline: linear-gradient(45deg, #1fa0ff #a7fdcc);
+    --smothy-mint: linear-gradient(45deg, #d3f5cf, #a8dbfa, #635ee2);
+    --dusty-grass:  linear-gradient(45deg, #d4fc79, #96e6a1);
+    --pink-panther: linear-gradient(45deg, #ffc0d6, #e0709f);
+    --neon: linear-gradient(45deg, #6157ff, #ee49fd);
+    --lime: linear-gradient(45deg, #2dfff5, #fff878);
+    --azure: linear-gradient(45deg, #0172af, #74febd);
+    --peach:  linear-gradient(45deg, #ff8473, #fff9d2);
+}
+    /*format: f-style f-variant f-weight f-size/l-height f-family*/
+
+
+body{
+    background-color: var(--off-white);
+}
+
+section{
+    max-width: 1200vh;
+    height: 150px;
+}
+
+
