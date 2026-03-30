@@ -1,5 +1,5 @@
 ## MyBoilerplate
-- Modelo para usar em projetos front-end.
+- Modelo base para usar em projetos front-end.
 
 ## Tecnologias:
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
