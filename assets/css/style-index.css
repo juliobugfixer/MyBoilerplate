@@ -52,9 +52,5 @@ body{
     background-color: var(--off-white);
 }
 
-section{
-    max-width: 1200vh;
-    height: 150px;
-}
 
 
