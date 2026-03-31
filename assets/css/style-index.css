@@ -44,13 +44,14 @@ html{
     --lime: linear-gradient(45deg, #2dfff5, #fff878);
     --azure: linear-gradient(45deg, #0172af, #74febd);
     --peach:  linear-gradient(45deg, #ff8473, #fff9d2);
+    /*format: f-style f-variant f-weight f-size/l-height f-family*/
+    --primary-heading: normal normal bold 1.5rem/2rem Georgia, serif;
 }
 
 
 
 body{
-    /*format: f-style f-variant f-weight f-size/l-height f-family*/
-    --primary-heading: normal normal bold 1.5rem/2rem Georgia, serif;
+
     background-color: var(--off-white);
 }
 
